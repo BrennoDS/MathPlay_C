@@ -3,11 +3,11 @@ Um jogo simples desenvolvido em linguagem C que gera contas de subtração, soma
 
 ## Como funciona
 1. O jogo começará perguntando qual o **nível de dificuldade** da equação que o jogador deseja responder.  
-   - **Níveis de dificuldade**:  
-     - Nível 1: Fácil  
-     - Nível 2: Médio  
-     - Nível 3: Difícil  
-     - Nível 4: Muito Difícil  
+   - **Níveis de dificuldade e intervalo de valores**:  
+     - Nível 1 (Fácil): Valores entre 1 e 10  
+     - Nível 2 (Médio): Valores entre 1 e 100  
+     - Nível 3 (Difícil): Valores entre 1 e 1000  
+     - Nível 4 (Muito Difícil): Valores entre 1 e 10000  
 
 2. Após escolher o nível, o jogo irá:
    - Gerar os valores da equação de forma aleatória.  
@@ -31,6 +31,3 @@ Um jogo simples desenvolvido em linguagem C que gera contas de subtração, soma
 
 ## Objetivo  
 Acumular o maior número de pontos possível respondendo corretamente às equações!
-
-
-
